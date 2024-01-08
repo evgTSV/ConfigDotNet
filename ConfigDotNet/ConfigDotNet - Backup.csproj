@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<AssemblyVersion>1.0.0</AssemblyVersion>
 	<Version>1.0.0</Version>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>$(MSBuildProjectName)</Title>
@@ -12,9 +12,6 @@
 	<Product>$(MSBuildProjectName)</Product>
 	<Description>Extension configuration opportunities</Description>
 	<PackageIcon>ConfigDotNetLogo.png</PackageIcon>
-	<RepositoryUrl>https://github.com/Evgeny608799/ConfigDotNet</RepositoryUrl>
-	<PackageTags>config;dotnet;model;file;xml;</PackageTags>
-	<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
   </PropertyGroup>
 
 	<ItemGroup>
