@@ -52,7 +52,7 @@ public static class ConfigurationMapper
         }
         catch (InvalidModelException modelEx)
         {
-            throw new MappingException(nameof(IConfiguration<string, TValue>), nameof(TModel), InvalidModelMapping, modelEx);
+            throw new MappingException(nameof(TModel), nameof(IConfiguration<string, TValue>), InvalidModelMapping, modelEx);
         }
     }
 }
