@@ -39,7 +39,7 @@ var config = new Configuration<int>(sections); // sections is IEnumerable<Sectio
 
 #### Example (C#):
 
--TestModel.cs
+- TestModel.cs
 ```CSharp
 using ConfigDotNet.ObjectModel;
 
@@ -54,7 +54,7 @@ public class Model
     [Section("D")] public int C { get; set; } // You can change the section name
 }
 ```
--Program.cs
+- Program.cs
 ```CSharp
 using ConfigDotNet.ObjectModel;
 using ConfigDotNet;
