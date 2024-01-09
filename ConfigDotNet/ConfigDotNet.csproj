@@ -17,6 +17,7 @@
 	<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageId>ConfigurationDotNet</PackageId>
   </PropertyGroup>
 
 	<ItemGroup>
