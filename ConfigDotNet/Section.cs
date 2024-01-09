@@ -1,4 +1,7 @@
-﻿namespace ConfigDotNet
+﻿// Licensed to the HardDriveS under one or more agreements.
+// The HardDriveS licenses this file to you under the MIT license.
+
+namespace ConfigDotNet
 {
     /// <summary>
     /// Represent a struct storing a key and value of section in <see cref="Configuration{T}"/>

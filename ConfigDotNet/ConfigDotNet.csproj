@@ -13,8 +13,10 @@
 	<Description>Extension configuration opportunities</Description>
 	<PackageIcon>ConfigDotNetLogo.png</PackageIcon>
 	<RepositoryUrl>https://github.com/Evgeny608799/ConfigDotNet</RepositoryUrl>
-	<PackageTags>config;dotnet;model;file;xml;</PackageTags>
+	<PackageTags>config;dotnet;model;file;xml;configuration;</PackageTags>
 	<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 	<ItemGroup>

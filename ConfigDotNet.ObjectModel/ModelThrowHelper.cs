@@ -1,4 +1,7 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿// Licensed to the HardDriveS under one or more agreements.
+// The HardDriveS licenses this file to you under the MIT license.
+
+using System.Diagnostics.CodeAnalysis;
 using ConfigDotNet.ObjectModel.Exceptions;
 using System.Reflection;
 using static ConfigDotNet.ObjectModel.Exceptions.ExceptionMessagesConstants;

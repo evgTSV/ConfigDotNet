@@ -1,4 +1,7 @@
-﻿using ConfigDotNet.ObjectModel.Exceptions;
+﻿// Licensed to the HardDriveS under one or more agreements.
+// The HardDriveS licenses this file to you under the MIT license.
+
+using ConfigDotNet.ObjectModel.Exceptions;
 using static ConfigDotNet.ObjectModel.Exceptions.ExceptionMessagesConstants;
 
 namespace ConfigDotNet.ObjectModel;
