@@ -20,11 +20,13 @@
 
 Requires .NET 7+ to use
 
-```
-
 ## How it works
 
-We will create `Configuration<T>` which contains key value pairs (string - T) using: an object derived from `IDictionry<string, Т>`, two `IEnumerable<Т>` objects representing collections of keys and values, a collection of specialized classes `Section<Т>`.
+We will create `Configuration<T>` which contains key value pairs (string - T) 
+using: 
+- an object derived from `IDictionry<string, Т>`,
+- two `IEnumerable<Т>` objects representing collections of keys and values,
+- a collection of specialized classes `Section<Т>`.
 
 #### Example (C#):
 ```CSharp
