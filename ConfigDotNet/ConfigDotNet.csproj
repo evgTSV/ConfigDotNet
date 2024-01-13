@@ -19,6 +19,8 @@
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<PackageId>ConfigurationDotNet</PackageId>
 	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	<SignAssembly>True</SignAssembly>
+	<AssemblyOriginatorKeyFile>$(MSBuildProjectDirectory)\keys\ConfigDotNetKeys.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
 	<ItemGroup>
