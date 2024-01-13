@@ -19,6 +19,9 @@
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
 	  <SignAssembly>True</SignAssembly>
 	  <AssemblyOriginatorKeyFile>$(MSBuildProjectDirectory)\keys\ConfigDotNetKeys.snk</AssemblyOriginatorKeyFile>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
 	<ItemGroup>
