@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
 	  <Version>1.0.0</Version>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 	  <Title>$(MSBuildProjectName)</Title>
 	  <Authors>EvgTSV</Authors>
 	  <Product>$(MSBuildProjectName)</Product>
@@ -38,4 +38,8 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
 </Project>

@@ -8,7 +8,13 @@ namespace ConfigDotNet
     /// </summary>
     public interface IConfiguration<TKey, out TValue> : IEnumerable<ISection<TKey, TValue>>
     {
+        /// <summary>
+        /// Get <see cref="ISection{TKey, TValue}"/> by key
+        /// </summary>
         public ISection<TKey, TValue> GetSection(TKey key);
+        /// <summary>
+        /// Get <see cref="ISection{TKey, TValue}"/> by key
+        /// </summary>
         public ISection<TKey, TValue> this[TKey key] { get; }
     }
 }

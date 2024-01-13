@@ -8,7 +8,13 @@ namespace ConfigDotNet
     /// </summary>
     public interface ISection<out TKey, out TValue>
     {
+        /// <summary>
+        /// Key of section
+        /// </summary>
         TKey Key { get; }
+        /// <summary>
+        /// Value of section
+        /// </summary>
         TValue Value { get; }
     }
 }

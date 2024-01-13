@@ -9,7 +9,13 @@ namespace ConfigDotNet
     /// <typeparam name="T">Type of value of section</typeparam>
     public readonly struct Section<T>(string key, T value) : ISection<string, T>
     {
+        /// <summary>
+        /// Key of section
+        /// </summary>
         public string Key => key;
+        /// <summary>
+        /// Value of section
+        /// </summary>
         public T Value => value;
     }
 }
