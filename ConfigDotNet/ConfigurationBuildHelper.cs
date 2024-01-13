@@ -41,12 +41,15 @@ namespace ConfigDotNet
         /// <returns>Return readonly dictionary</returns>
         internal static IReadOnlyDictionary<string, T> CreateDictionary<T>(IDictionary<string, T> sections)
         {
+
+#if NET8_0_OR_GREATER
             if (sections.Count > MaxSectionsInSmallConfig)
             {
-#if NET8_0_OR_GREATER
+
                 return sections.ToFrozenDictionary();
-#endif
+
             }
+#endif
 
             return new ReadOnlyDictionary<string, T>(sections);
         }
