@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConfigDotNet.ObjectModel\ConfigurationDotNet.ObjectModel.csproj" />
+    <ProjectReference Include="..\ConfigDotNet.FileSystem\ConfigDotNet.FileSystem.csproj" />
   </ItemGroup>
 
 </Project>

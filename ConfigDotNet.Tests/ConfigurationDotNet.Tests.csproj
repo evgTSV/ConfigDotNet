@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConfigDotNet\ConfigDotNet.csproj" />
+    <ProjectReference Include="..\ConfigDotNet\ConfigurationDotNet.csproj" />
   </ItemGroup>
 
 </Project>

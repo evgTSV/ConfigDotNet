@@ -3,23 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigDotNet", "ConfigDotNet\ConfigDotNet.csproj", "{21AE819B-D30F-430A-9DA1-26E79AB12489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationDotNet", "ConfigDotNet\ConfigurationDotNet.csproj", "{21AE819B-D30F-430A-9DA1-26E79AB12489}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB86A567-F134-40B3-BE8D-8E70DBC49DBC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FD3A9B4C-FAA9-4D4A-9320-8DE1EBD43928}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigDotNet.Tests", "ConfigDotNet.Tests\ConfigDotNet.Tests.csproj", "{1B3B63A7-9882-4A71-BD0C-77FBDE42FBB1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigDotNet.Xml", "ConfigDotNet.Xml", "{C6B9ED50-CE01-4B04-B479-36D1BD7B1055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationDotNet.Tests", "ConfigDotNet.Tests\ConfigurationDotNet.Tests.csproj", "{1B3B63A7-9882-4A71-BD0C-77FBDE42FBB1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigDotNet.ObjectModel", "ConfigDotNet.ObjectModel", "{0F32FC17-B585-473A-A347-D512F5BB4A36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigDotNet.ObjectModel", "ConfigDotNet.ObjectModel\ConfigDotNet.ObjectModel.csproj", "{7EF5D7C1-76B2-4431-911C-F0545EAA0FDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationDotNet.ObjectModel", "ConfigDotNet.ObjectModel\ConfigurationDotNet.ObjectModel.csproj", "{7EF5D7C1-76B2-4431-911C-F0545EAA0FDE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigDotNet.ObjectModel.Tests", "ConfigDotNet.ObjectModel.Tests", "{7C9BCBB9-7C7F-432F-928D-757C51B1A414}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigDotNet.Xml.Tests", "ConfigDotNet.Xml.Tests", "{C9704C08-2C3B-4F2E-ABFF-B57C040DEBFE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigDotNet.ObjectModel.Tests", "CofigDotNet.ObjectModel.Tests\ConfigDotNet.ObjectModel.Tests.csproj", "{1FA8C257-C4A1-44BF-A2FC-D202D0DC2444}"
 EndProject
@@ -27,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{
 	ProjectSection(SolutionItems) = preProject
 		InitializationModelImmutableList.linq = InitializationModelImmutableList.linq
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigDotNet.FileSystem", "ConfigDotNet.FileSystem\ConfigDotNet.FileSystem.csproj", "{2E803A5C-325D-476D-8011-F867C44EC80F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigDotNet.FileSystem.Tests", "ConfigDotNet.FileSystem.Tests\ConfigDotNet.FileSystem.Tests.csproj", "{33420FE5-05ED-4B14-99FE-6805C3739AB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +50,14 @@ Global
 		{1FA8C257-C4A1-44BF-A2FC-D202D0DC2444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FA8C257-C4A1-44BF-A2FC-D202D0DC2444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FA8C257-C4A1-44BF-A2FC-D202D0DC2444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E803A5C-325D-476D-8011-F867C44EC80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E803A5C-325D-476D-8011-F867C44EC80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E803A5C-325D-476D-8011-F867C44EC80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E803A5C-325D-476D-8011-F867C44EC80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33420FE5-05ED-4B14-99FE-6805C3739AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33420FE5-05ED-4B14-99FE-6805C3739AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33420FE5-05ED-4B14-99FE-6805C3739AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33420FE5-05ED-4B14-99FE-6805C3739AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,12 +65,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{21AE819B-D30F-430A-9DA1-26E79AB12489} = {CB86A567-F134-40B3-BE8D-8E70DBC49DBC}
 		{1B3B63A7-9882-4A71-BD0C-77FBDE42FBB1} = {FD3A9B4C-FAA9-4D4A-9320-8DE1EBD43928}
-		{C6B9ED50-CE01-4B04-B479-36D1BD7B1055} = {CB86A567-F134-40B3-BE8D-8E70DBC49DBC}
 		{0F32FC17-B585-473A-A347-D512F5BB4A36} = {CB86A567-F134-40B3-BE8D-8E70DBC49DBC}
 		{7EF5D7C1-76B2-4431-911C-F0545EAA0FDE} = {0F32FC17-B585-473A-A347-D512F5BB4A36}
 		{7C9BCBB9-7C7F-432F-928D-757C51B1A414} = {FD3A9B4C-FAA9-4D4A-9320-8DE1EBD43928}
-		{C9704C08-2C3B-4F2E-ABFF-B57C040DEBFE} = {FD3A9B4C-FAA9-4D4A-9320-8DE1EBD43928}
 		{1FA8C257-C4A1-44BF-A2FC-D202D0DC2444} = {7C9BCBB9-7C7F-432F-928D-757C51B1A414}
+		{2E803A5C-325D-476D-8011-F867C44EC80F} = {CB86A567-F134-40B3-BE8D-8E70DBC49DBC}
+		{33420FE5-05ED-4B14-99FE-6805C3739AB6} = {FD3A9B4C-FAA9-4D4A-9320-8DE1EBD43928}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD930FC5-1719-4576-BC13-C26665AF4951}
