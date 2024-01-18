@@ -2,8 +2,7 @@
 
 ![](ConfigDotNetBanner.png)
 
-[![NuGet Version](https://img.shields.io/nuget/vpre/ConfigurationDotNet?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FConfigurationDotNet)](https://img.shields.io/nuget/vpre/ConfigurationDotNet?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FConfigurationDotNet%2F1.5.0
-)
+![NuGet Version](https://img.shields.io/nuget/v/ConfigurationDotNet?style=flat-square&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FConfigurationDotNet%2F1.5.0)
 ![NuGet Downloads](https://img.shields.io/nuget/dt/ConfigurationDotNet)
 
 # What is ConfigDotNet?
